@@ -1,0 +1,117 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-redesign-the-overall-ui-with-improved-visual-hierarchy-spacing-and-typography-to-create-a-more-polished-and-modern-appearance-while-maintaining-the-professional-corporate-style",
+      "featureTitle": "Redesign the overall UI with improved visual hierarchy, spacing, and typography to create a more polished and modern appearance while maintaining the professional corporate style",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-enhance-the-report-request-form-reportrequestform-tsx-with-improved-visual-design-including-better-field-layouts-refined-input-styling-and-clearer-visual-feedback-for-validation-states",
+      "featureTitle": "Enhance the report request form (ReportRequestForm.tsx) with improved visual design including better field layouts, refined input styling, and clearer visual feedback for validation states",
+      "files": [
+        "frontend/src/components/ReportRequestForm.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-improve-the-dashboard-table-design-requestsdashboard-tsx-with-enhanced-visual-styling-including-better-row-hover-states-improved-status-badges-and-clearer-column-headers",
+      "featureTitle": "Improve the dashboard table design (RequestsDashboard.tsx) with enhanced visual styling including better row hover states, improved status badges, and clearer column headers",
+      "files": [
+        "frontend/src/components/RequestsDashboard.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-enhance-the-navigation-and-header-design-layout-tsx-with-improved-tab-styling-better-role-toggle-presentation-and-more-polished-overall-layout",
+      "featureTitle": "Enhance the navigation and header design (Layout.tsx) with improved tab styling, better role toggle presentation, and more polished overall layout",
+      "files": [
+        "frontend/src/components/Layout.tsx",
+        "frontend/src/components/RoleToggle.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-refine-the-modal-design-requestdetailmodal-tsx-with-improved-visual-styling-better-content-organization-and-enhanced-interactive-elements-for-the-review-workflow",
+      "featureTitle": "Refine the modal design (RequestDetailModal.tsx) with improved visual styling, better content organization, and enhanced interactive elements for the review workflow",
+      "files": [
+        "frontend/src/components/RequestDetailModal.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-cohesive-visual-theme-across-the-application-with-a-sophisticated-color-palette-refined-use-of-shadows-and-elevation-and-consistent-interactive-element-styling-to-create-a-premium-user-experience",
+      "featureTitle": "Apply a cohesive visual theme across the application with a sophisticated color palette, refined use of shadows and elevation, and consistent interactive element styling to create a premium user experience",
+      "files": [
+        "frontend/src/pages/AdminDashboardPage.tsx",
+        "frontend/src/pages/SubmitRequestPage.tsx",
+        "frontend/src/pages/ViewRequestsPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Internal web application called Report Request Portal for managing Power BI report requests. Standardizes and streamlines report requests to reduce duplication and improve clarity.",
+  "architectural_notes": [
+    "Web-based internal application for report request management",
+    "Two simulated user roles: requester and admin",
+    "Form-based request submission with validation",
+    "Status-based workflow: pending → approved/rejected → in development → completed"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-structured-report-request-form-with-the-following-fields-requester-name-text-input-department-text-input-business-objective-textarea-required-kpis-textarea-data-source-dropdown-with-options-to-be-defined-required-filters-textarea-urgency-level-dropdown-with-options-low-medium-high-and-justification-for-new-report-textarea",
+      "title": "Create a structured report request form with the following fields: Requester Name (text input), Department (text input), Business Objective (textarea), Required KPIs (textarea), Data Source (dropdown with options to be defined), Required Filters (textarea), Urgency Level (dropdown with options: Low, Medium, High), and Justification for New Report (textarea)",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-mandatory-checkbox-confirmation-on-the-report-request-form-requiring-users-to-confirm-they-have-reviewed-existing-reports-before-submitting-the-request",
+      "title": "Add a mandatory checkbox confirmation on the report request form requiring users to confirm they have reviewed existing reports before submitting the request",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-dashboard-view-for-the-bi-team-that-displays-a-list-of-all-submitted-report-requests-with-the-following-columns-requester-name-department-business-objective-summary-status-pending-approved-rejected-in-development-completed-submission-date-and-assigned-reviewer",
+      "title": "Create a dashboard view for the BI team that displays a list of all submitted report requests with the following columns: Requester Name, Department, Business Objective (summary), Status (Pending, Approved, Rejected, In Development, Completed), Submission Date, and Assigned Reviewer",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-basic-approval-workflow-allowing-reviewers-to-approve-or-reject-requests-and-add-comments-to-each-request",
+      "title": "Implement a basic approval workflow allowing reviewers to approve or reject requests and add comments to each request",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-clean-professional-and-minimal-ui-design-using-a-modern-corporate-style-with-simple-navigation-tabs-for-submit-requests-view-existing-requests-and-admin-dashboard",
+      "title": "Create a clean, professional, and minimal UI design using a modern corporate style with simple navigation tabs for: Submit Requests, View Existing Requests, and Admin Dashboard",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-simulated-user-roles-requester-and-admin-without-authentication-integration-where-the-application-allows-users-to-toggle-between-roles-to-access-different-features",
+      "title": "Implement simulated user roles (Requester and Admin) without authentication integration, where the application allows users to toggle between roles to access different features",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-overall-ui-with-improved-visual-hierarchy-spacing-and-typography-to-create-a-more-polished-and-modern-appearance-while-maintaining-the-professional-corporate-style",
+      "title": "Redesign the overall UI with improved visual hierarchy, spacing, and typography to create a more polished and modern appearance while maintaining the professional corporate style",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-report-request-form-reportrequestform-tsx-with-improved-visual-design-including-better-field-layouts-refined-input-styling-and-clearer-visual-feedback-for-validation-states",
+      "title": "Enhance the report request form (ReportRequestForm.tsx) with improved visual design including better field layouts, refined input styling, and clearer visual feedback for validation states",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-improve-the-dashboard-table-design-requestsdashboard-tsx-with-enhanced-visual-styling-including-better-row-hover-states-improved-status-badges-and-clearer-column-headers",
+      "title": "Improve the dashboard table design (RequestsDashboard.tsx) with enhanced visual styling including better row hover states, improved status badges, and clearer column headers",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-navigation-and-header-design-layout-tsx-with-improved-tab-styling-better-role-toggle-presentation-and-more-polished-overall-layout",
+      "title": "Enhance the navigation and header design (Layout.tsx) with improved tab styling, better role toggle presentation, and more polished overall layout",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-refine-the-modal-design-requestdetailmodal-tsx-with-improved-visual-styling-better-content-organization-and-enhanced-interactive-elements-for-the-review-workflow",
+      "title": "Refine the modal design (RequestDetailModal.tsx) with improved visual styling, better content organization, and enhanced interactive elements for the review workflow",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-visual-theme-across-the-application-with-a-sophisticated-color-palette-refined-use-of-shadows-and-elevation-and-consistent-interactive-element-styling-to-create-a-premium-user-experience",
+      "title": "Apply a cohesive visual theme across the application with a sophisticated color palette, refined use of shadows and elevation, and consistent interactive element styling to create a premium user experience",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Structured report request form with fields: requester name, department, business objective, required KPIs, data source (dropdown), required filters, urgency level (low/medium/high), justification",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Checkbox confirmation requiring users to confirm they reviewed existing reports before submitting",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Dashboard view for BI team showing list of submitted requests with: status (pending/approved/rejected/in development/completed), submission date, assigned reviewer",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Basic approval workflow where requests can be reviewed and approved or rejected, with reviewer comments",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Clean, professional, minimal design with modern corporate UI style",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Simple navigation tabs: Submit requests, view existing requests, admin dashboard",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Simulated user roles (requester and admin) without authentication integration",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Improve UI design and visual polish",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Report Request Portal",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

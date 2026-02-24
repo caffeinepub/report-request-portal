@@ -1,0 +1,140 @@
+{
+  "kind": "build_request",
+  "title": "Enhance UI design and visual polish",
+  "projectName": "Report Request Portal",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "Redesign the overall UI with improved visual hierarchy, spacing, and typography to create a more polished and modern appearance while maintaining the professional corporate style",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Just a better UI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Improved spacing and padding throughout the application for better visual breathing room",
+        "Enhanced typography hierarchy with clear differentiation between headings, body text, and labels",
+        "Consistent visual design language applied across all pages and components",
+        "Professional and polished appearance that elevates the current design"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Enhance the report request form (ReportRequestForm.tsx) with improved visual design including better field layouts, refined input styling, and clearer visual feedback for validation states",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Just a better UI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Form fields have improved visual styling with clear focus states",
+        "Better visual distinction between required and optional fields",
+        "Enhanced error message presentation with improved color and placement",
+        "Success alerts are more visually prominent and well-designed"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Improve the dashboard table design (RequestsDashboard.tsx) with enhanced visual styling including better row hover states, improved status badges, and clearer column headers",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Just a better UI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Table has improved visual styling with better borders and spacing",
+        "Row hover states are more prominent and polished",
+        "Status badges have enhanced visual design with better color coding",
+        "Column headers are visually distinct and easier to scan"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Enhance the navigation and header design (Layout.tsx) with improved tab styling, better role toggle presentation, and more polished overall layout",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Just a better UI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation tabs have improved visual design with clearer active states",
+        "Header layout is more polished with better spacing and alignment",
+        "Role toggle component has enhanced visual presentation",
+        "Overall header feels more premium and professional"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Refine the modal design (RequestDetailModal.tsx) with improved visual styling, better content organization, and enhanced interactive elements for the review workflow",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Just a better UI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Modal has improved visual design with better shadows and borders",
+        "Content sections within the modal are better organized with clear visual separation",
+        "Review controls have enhanced styling with clearer call-to-action buttons",
+        "Modal overlay and transitions feel more polished"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Apply a cohesive visual theme across the application with a sophisticated color palette, refined use of shadows and elevation, and consistent interactive element styling to create a premium user experience",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Just a better UI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A refined color palette is consistently applied throughout the application",
+        "Shadows and elevation are used strategically to create visual depth",
+        "All buttons, inputs, and interactive elements share consistent styling patterns",
+        "The overall visual theme feels cohesive and premium across all pages"
+      ]
+    }
+  ],
+  "constraints": [
+    "Maintain the existing functional behavior of all components",
+    "Do not modify the backend logic or data structures",
+    "Preserve the current role-based access control and navigation structure",
+    "Keep the professional corporate style direction",
+    "Do not change paths in frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, or frontend/src/components/ui"
+  ],
+  "nonGoals": [
+    "Adding new features or functionality beyond visual improvements",
+    "Changing the information architecture or navigation structure",
+    "Modifying backend API endpoints or data models",
+    "Implementing real authentication systems",
+    "Adding animations beyond subtle transitions for polish"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
